@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="profile">
-        <h1>Welcome to Nakalembe's subdomain omuwala</h1>
+        <h1>Welcome to Nakalembe's subdomain </h1>
         <?php
         $stmt = $pdo->prepare("SELECT * FROM members WHERE name = ?");
         $stmt->execute(['Nakalembe']);
